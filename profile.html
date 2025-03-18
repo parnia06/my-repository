@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 30px;
+            padding-left: 50px;
+        }
+
+        .parnia {
+            font-size: 30px;
+            font-family: 'Brush Script MT', cursive;
+            margin-right: 20px;
+        }
+
+        .button {
+            display: flex;
+            margin-left: auto;
+            gap: 35px;
+        }
+
+        .button a {
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .parnia {
+            width: 470px;
+            margin-right: 30px;
+        }
+
+        .text-content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .text-content h1, .text-content h2, .text-content h3 {
+            margin: 0;
+            padding: 5px 0;
+        }
+
+        .about {
+            margin-top: 210px;
+            margin-left: 40pc;
+        }
+
+        .know {
+            margin-left: 2.2pc;
+            font-size: 15px;
+            margin-top: -40px;
+        }
+
+        .me1 {
+            font-size: 50px;
+            margin-top: 0px;
+        }
+
+        
+        .yslmakeup {
+            width: 400px;
+            border-radius: 15px;
+            margin-left: -500px;
+            margin-top: 5pc;
+        }
+
+        .Experience {
+            width: 300px;
+            height: 170px;
+            margin-left: -200px;
+            margin-top: -500px;
+            font-size: 20px;
+            font-family: 'Brush Script MT', cursive;
+            border-radius: 50px;
+            cursor: pointer;
+            background-color: rgb(241, 235, 235);
+        }
+
+        .sumo {
+    display: flex;
+   margin-left: 200px;
+    margin-top:80px;
+}
+
+.Experience {
+    background-color: #f9f9f9;
+    border: 2px solid #515050;
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+    border-radius: 50px;
+    padding: 20px 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px; 
+    height: 200px;
+    margin-top: -360px;
+}
+
+.Experience:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05); 
+}
+
+.Experience b {
+    font-size: 35px;
+}
+
+.Experience small {
+    font-size: 16px;
+    color: #555;
+}
+
+
+        .but {
+          border: 2px solid #515050; 
+          color: black; 
+          background-color: white;
+          width: 120px; 
+          height: 30px;
+          font-size: 18px; 
+          padding: 10px 15px; 
+          border-radius: 8px; 
+          text-align: center; 
+          cursor: pointer; 
+          text-decoration: none; 
+          display: inline-block; 
+        }
+
+        .but:hover {
+          background-color: #b2b0b0; 
+          border-color: #656565; 
+          color: #333; 
+        }
+
+        .yslparagraph {
+            margin-left: 15pc;
+            margin-top: -12pc;
+        }
+
+        .exper {
+            margin-top: 170px;
+            margin-left: 40pc;
+        }
+
+        .explore {
+            margin-left: 5pc;
+            font-size: 15px;
+            margin-top: -40px;
+        }
+
+        .ex {
+            font-size: 50px;
+            margin-top: 0px;
+        }
+
+      
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    margin-left: -450px;
+    width: 900px;
+    margin-top: 50px;
+margin-left: -400px;
+}
+
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 20px;
+    
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-item:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); 
+   
+}
+
+.skill-icon {
+    font-size: 40px;
+    color: #4CAF50; 
+    margin-bottom: 10px;
+}
+
+.skill-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.skill-level {
+    font-size: 14px;
+    color: #696969;
+}
+
+.experience-title {
+    font-size: 50px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    color: #333;
+
+}
+
+.experience-subtitle {
+    font-size: 18px;
+   
+    margin-bottom: 20px;
+    color: #787878;
+}
+.exexperience-title{
+margin-left: -20px;
+font-size: 50px;
+}
+
+
+        .pro{
+            margin-top: 200px;
+            margin-left: 40pc;
+        }
+
+        .Browse{
+            margin-left: 2pc;
+            font-size: 15px;
+            margin-top: -40px;
+        }
+
+        .proj {
+            font-size: 50px;
+            margin-top: 0px;
+        }
+
+        .project-container {
+           display: flex;
+           flex-direction: column;
+           align-items: center; 
+           border: 2px solid black; 
+           border-radius: 20px;
+           padding: 20px;
+           width: 450px; 
+           background-color: #f9f9f9;
+           margin-top: 80px;
+           margin-left: -140px;
+         }
+
+        .propic {
+            width:300px; 
+            border-radius: 10px; 
+        }
+
+        .project-container h1 {
+            margin-top: 15px; 
+        }
+
+        .project-container button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            border: none;
+            cursor: pointer;
+            border:1px solid #515050;
+        }
+
+        .project-container button:hover {
+            background-color: #afafaf; 
+        }
+
+        .butt {
+          border: 2px solid #515050; 
+          color: black; 
+          background-color: white; 
+          width: 100px;
+          font-size: 18px; 
+          padding: 10px 15px; 
+          border-radius: 8px; 
+          text-align: center; 
+          cursor: pointer; 
+          text-decoration: none; 
+          display: inline-block; 
+        }
+
+        .butt:hover {
+          background-color: #b2b0b0; 
+          border-color: #656565; 
+          color: #333; 
+        }
+        .cont{
+            margin-top: 230px;
+            margin-left: 40pc;
+        }
+        .get{
+            margin-left: 4.5pc;
+            font-size: 15px;
+            margin-top: -40px;
+        }
+        .com{
+            font-size: 50px;
+            margin-top: 0px;
+        }
+        .consec {
+           border: 2px solid #515050; 
+           color: black; 
+           background-color: white;
+           width: 300px; 
+           height: 50px; 
+           font-size: 18px; 
+           padding: 10px; 
+           border-radius: 8px; 
+           text-align: center; 
+           cursor: pointer; 
+           text-decoration: none; 
+           display: inline-block; 
+           margin-top: 50px; 
+           margin-left: -50px; 
+           transition: background-color 0.3s, transform 0.3s; 
+        }
+
+        .consec:hover {
+           background-color: #b2b0b0; 
+           border-color: #656565; 
+           color: #333; 
+           transform: scale(1.05); 
+        }
+        .about-content {
+    display: flex;
+
+   
+    margin-top: 100px; 
+}
+
+.sumo {
+    margin-top: 0; 
+}
+
+.para {
+ 
+    line-height: 1.6; 
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: -350px;
+   
+
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2 class="parnia"><span class="abtl">parnia</span> abtl</h2>
+        <div class="button">
+            <a href="#about">About</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Projects">Projects</a>
+            <a href="#contact">Contact</a> 
+        </div>
+    </div>
+
+
+    <div class="content" >
+        <img class="parnia" src="sddfbcv.jpg" alt="wait babe <3">
+        <div class="text-content">
+            <h4>Hello. I am</h4>
+            <h1>Parnia Abootalebi</h1>
+            <h4>Frontend Developer</h4>
+            <a class="but" href="first%20site/Beef.html">download CV</a>
+        </div>
+    </div>
+
+    
+
+    <section id="about" class="about" >
+        <h4 class="know">Get To Know More</h4>
+        <h1 class="me1">About Me</h1>
+         <img class="yslmakeup" src="tfd c.jpg" alt="wait babe <3">
+         <div class="about-content">
+            <div class="sumo">
+                <button class="Experience"><b>&#9819;<br>Experience</b><br><small>+1 year</small><br><small>Development</small></button>
+                <p class="para">
+                    Hello, I am Parnia Abootalebi. I developed an interest in <br>
+                    programming at the age of 16, and I have been putting in my <br>
+                    best efforts to learn programming in the best possible way. <br>
+                    I am proficient in Python, C, C++, and (HTML & CSS). I am currently <br>
+                    a first-year student in Computer Engineering, and I am doing my <br>
+                    utmost to become successful in this field.
+                </p>
+            </div>
+        </div>
+        
+    </section>
+
+
+<section id="Experience" class="exper">
+    <h4 class="explore">Explore My</h4>
+    <h1 class="exexperience-title">Experience</h1>
+    <div class="experience-container">
+        <div class="experience-item">
+            <div class="skill-icon">&#10051;</div>
+            <div class="skill-text">HTML</div>
+            <div class="skill-level">Experienced</div>
+        </div>
+        
+        <div class="experience-item">
+            <div class="skill-icon">&#10051;</div>
+            <div class="skill-text">CSS</div>
+            <div class="skill-level">Experienced</div>
+        </div>
+        
+        <div class="experience-item">
+            <div class="skill-icon">&#10051;</div>
+            <div class="skill-text">Python</div>
+            <div class="skill-level">Basic</div>
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="Projects" class="pro">
+        <h4 class="Browse">Browse My Recent</h4>
+        <h1 class="proj">Projects  </h1>
+        <div class="project-container">
+            <img class="propic" src="afa0bbe1320e2f28c052081a48a9f9a1.jpg" alt="wait a sec">
+            <h1>Project 1</h1>
+            <a class="butt" href="file:///C:/Users/aboot/Desktop/htm-css-course/first%20site/home.html">HERE</a>
+        </div>
+    </section>
+
+
+    <section id="contact" class="cont">
+        <h4 class="get">Get in Touch</h4>
+        <h1 class="com">Contact Me</h1>
+         <a class="consec" href="">parnia20061385@gmail.com</a>
+    </section>
+       
+</body>
+</html>  
